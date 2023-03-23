@@ -28,7 +28,7 @@ const VideoCard = () => {
             </div>
           </div>
           <div className="col-span-1">
-            <video controls className="rounded-2xl">
+            <video controls className="rounded-2xl" autoPlay muted>
               <source src={AmitabhBacchanVideo} type="video/mp4" />
             </video>
           </div>

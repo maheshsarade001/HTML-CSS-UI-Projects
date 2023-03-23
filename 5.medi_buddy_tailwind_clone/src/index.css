@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.gold-text {
+    background: linear-gradient(#fbea86 0,#fbea86 8%,#fbea86 30%,#fbea86 40%,transparent 80%),linear-gradient(#fff 0,#e0af21 8%,#e0af21 25%,#e0af21 62.5%,#e0af21 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
