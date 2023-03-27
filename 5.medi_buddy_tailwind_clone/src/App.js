@@ -1,8 +1,10 @@
 import "./App.css";
 import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
 import Insurance from "./Components/Insurance";
 import MedibuddyGold from "./Components/MedibuddyGold";
 import Navbar from "./Components/Navbar";
+import Offers from "./Components/Offers";
 import Products from "./Components/Products";
 import VideoCard from "./Components/VideoCard";
 
@@ -15,6 +17,8 @@ function App() {
       <VideoCard />
       <MedibuddyGold />
       <Insurance />
+      <Offers />
+      <Footer />
     </div>
   );
 }
