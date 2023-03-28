@@ -10,10 +10,11 @@ import VideoCard from "./Components/VideoCard";
 
 function App() {
   return (
-    <div className="font-Nunito">
+    <div className="font-Nunito px-3">
       <Navbar />
       <Products />
       <Banner />
+
       <VideoCard />
       <MedibuddyGold />
       <Insurance />
