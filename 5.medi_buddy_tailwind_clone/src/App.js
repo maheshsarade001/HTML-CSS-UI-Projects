@@ -14,7 +14,6 @@ function App() {
       <Navbar />
       <Products />
       <Banner />
-
       <VideoCard />
       <MedibuddyGold />
       <Insurance />

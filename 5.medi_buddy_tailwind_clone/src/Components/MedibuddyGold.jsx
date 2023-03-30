@@ -16,15 +16,15 @@ const MedibuddyGold = () => {
               <span className="text-[#f40009]">Buddy </span>
               <span className="text-[#e0af21]">GOLD</span>
             </div>
-            <p className="text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009] mb-7 ">
-              Give the care your family deserves
+            <p className="text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] via-[#f40009] to-[#f40009] mb-7 ">
+              Give the care your family <br /> deserves
             </p>
             <p className="text-[#262c67] text-lg font-bold mb-7">
               Unlimited Consultations with top Docters for members for 6 family
               members in 18+ specialities
             </p>
-            <button className="text-sm bg-[#efcf58] py-3 px-6 rounded-2xl">
-              Buy MediBuddy <span>&emsp;</span> <span> &rarr;</span>
+            <button className="text-sm text-[#262c67] bg-[#efcf58] py-3 px-6 rounded-2xl font-bold">
+              Buy MediBuddy Gold<span>&emsp;</span> <span> &rarr;</span>
             </button>
           </div>
           <div className="col-span-1">

@@ -8,15 +8,15 @@ const Offers = () => {
   return (
     <>
       <div className="max-w-screen-2xl mx-auto my-14">
-        <div className="flex items-center gap-5">
-          <img className="w-4" src={Left} alt="left" />
+        <div className="flex items-center gap-5 ">
+          <img className="w-4 cursor-pointer" src={Left} alt="left" />
           <div>
-            <img src={firstImage} alt="best buddy" />
+            <img src={firstImage} alt="best buddy" className="cursor-pointer" />
           </div>
           <div>
-            <img src={secondImage} alt="corporate" />
+            <img src={secondImage} alt="corporate" className="cursor-pointer" />
           </div>
-          <img className="w-4" src={Right} alt="right" />
+          <img className="w-4 cursor-pointer" src={Right} alt="right" />
         </div>
       </div>
     </>

@@ -54,7 +54,7 @@ const Footer = () => {
                   Locate hospital
                 </p>
                 <p className="mb-[10px] py-[2px] cursor-pointer hover:text-white font-bold">
-                  <span className="text-base text-white">Download:</span>
+                  <span className="text-base text-white">Download: </span>
                   eCard <span className="text-base text-white">|</span>
                   Claim forms
                 </p>

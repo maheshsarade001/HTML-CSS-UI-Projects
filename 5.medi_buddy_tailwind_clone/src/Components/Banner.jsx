@@ -16,17 +16,17 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center my-3 gap-3">
-          <div className="w-4 h-4 bg-[#1778F2] rounded-3xl"></div>
-          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl"></div>
-          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl"></div>
-          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl"></div>
-          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl"></div>
-          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl"></div>
+          <div className="w-4 h-4 bg-[#1778F2] rounded-3xl cursor-pointer"></div>
+          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl cursor-pointer"></div>
+          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl cursor-pointer"></div>
+          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl cursor-pointer"></div>
+          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl cursor-pointer"></div>
+          <div className="w-4 h-4 bg-[#DDDDDD] rounded-3xl cursor-pointer"></div>
         </div>
         <div>
           <div className=" my-10">
             <img
-              className="mx-auto rounded-xl border shadow-[0px_0px_15px_rgba(24,24,24,0.161)]"
+              className="mx-auto rounded-xl border shadow-[0px_0px_15px_rgba(24,24,24,0.161)] cursor-pointer"
               src={ABHA}
               alt="ABHA"
             />
