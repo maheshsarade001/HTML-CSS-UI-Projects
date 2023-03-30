@@ -14,12 +14,15 @@ import svga from "../assets/diabrDZ77IFIJ.svg";
 const Products = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-screen-xl mx-auto ">
         <div>
-          <div className="flex justify-around items-center gap-2 max-w-4xl mx-auto mb-7">
+          <div
+            className=" md:bg-transparent bg-[#f5f5f5] flex flex-wrap xl:flex-nowrap justify-around items-center gap-2 max-w-4xl mx-auto mb-7 bg-[length:10px] rounded-3xl shadow-[0px_0px_15px_rgba(24,24,24,0.161)] md:shadow-none"
+            style={{ backgroundImage: `url(${svga})` }}
+          >
             <div
               style={{ backgroundImage: `url(${svga})` }}
-              className="bg-[#f5f5f5] w-32 h-32 py-4 pb-6 bg-[length:10px] bg-repeat rounded-3xl shadow-[0px_0px_15px_rgba(24,24,24,0.161)] text-center cursor-pointer"
+              className="bg-[#f5f5f5] w-32 h-32 py-4 pb-6 bg-[length:10px] bg-repeat rounded-3xl md:shadow-[0px_0px_15px_rgba(24,24,24,0.161)] text-center cursor-pointer"
             >
               <img
                 src={TalkToDoctor}
@@ -65,7 +68,7 @@ const Products = () => {
                 Lab Test & <br /> Packages
               </p>
             </div>
-            <div className="w-32 h-32 py-4 ">
+            <div className="w-32 h-32 py-4 hidden sm:block">
               <div className="w-10 h-10 mx-auto border shadow-[0px_0px_2px_rgba(24,24,24,0.161)] py-1 rounded-xl mb-4 hover:rounded-full hover:shadow-[0px_0px_12px_rgba(24,24,24,0.161)] cursor-pointer">
                 <img src={More} alt="More" className="mx-auto " />
               </div>
@@ -73,9 +76,12 @@ const Products = () => {
                 More
               </p>
             </div>
+            <div className="sm:hidden text-[#4585f4] text-sm font-bold">
+              <a href="">Show More</a>
+            </div>
           </div>
         </div>
-        <div className="relative flex justify-between items-center m-auto max-w-[960px] py-[30px] px-5 rounded-[50px] shadow-[0px_0px_15px_rgba(24,24,24,0.161)] ">
+        <div className="hidden relative md:flex justify-between items-center m-auto max-w-[960px] py-[30px] px-5 rounded-[50px] shadow-[0px_0px_15px_rgba(24,24,24,0.161)] ">
           <div className="text-lg text-[#050a4e] font-bold m-auto">
             Consult with Top Docters Online, 24x7
           </div>

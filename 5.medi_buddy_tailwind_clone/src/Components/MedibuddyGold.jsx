@@ -9,7 +9,7 @@ const MedibuddyGold = () => {
   return (
     <>
       <div className="max-w-screen-xl mx-auto my-8">
-        <div className="grid grid-cols-2">
+        <div className="md:grid grid-cols-2">
           <div className="col-span-1">
             <div className="text-[22px] mb-5">
               <span className="text-[#1778f2]">Medi</span>
@@ -23,13 +23,13 @@ const MedibuddyGold = () => {
               Unlimited Consultations with top Docters for members for 6 family
               members in 18+ specialities
             </p>
-            <button className="text-sm text-[#262c67] bg-[#efcf58] py-3 px-6 rounded-2xl font-bold">
+            <button className="text-sm text-[#262c67] bg-[#efcf58] py-3 px-6 rounded-2xl font-bold mb-4">
               Buy MediBuddy Gold<span>&emsp;</span> <span> &rarr;</span>
             </button>
           </div>
           <div className="col-span-1">
-            <div className="grid grid-cols-2 gap-y-6">
-              <div className="relative col-span-1 border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
+            <div className="grid grid-cols-2  gap-y-6 gap-x-4 md:gap-x-1">
+              <div className="relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={unlimitedConsultations} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
                 <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
@@ -45,7 +45,7 @@ const MedibuddyGold = () => {
                   className="absolute bottom-0 right-0"
                 />
               </div>
-              <div className="top-16 relative col-span-1 border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
+              <div className="md:top-16 relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={family} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
                 <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
@@ -61,7 +61,7 @@ const MedibuddyGold = () => {
                   className="absolute bottom-0 right-0"
                 />
               </div>
-              <div className="relative col-span-1 border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
+              <div className="relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={freeHealth} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
                 <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
@@ -77,7 +77,7 @@ const MedibuddyGold = () => {
                   className="absolute bottom-0 right-0"
                 />
               </div>
-              <div className="top-16 relative col-span-1 border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
+              <div className="md:top-16 relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={videoConsultation} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
                 <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
