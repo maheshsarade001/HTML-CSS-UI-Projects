@@ -13,7 +13,7 @@ const Offers = () => {
           <div>
             <img src={firstImage} alt="best buddy" className="cursor-pointer" />
           </div>
-          <div>
+          <div className="hidden sm:block">
             <img src={secondImage} alt="corporate" className="cursor-pointer" />
           </div>
           <img className="w-4 cursor-pointer" src={Right} alt="right" />

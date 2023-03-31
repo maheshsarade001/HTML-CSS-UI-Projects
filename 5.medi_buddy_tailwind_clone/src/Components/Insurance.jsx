@@ -19,8 +19,8 @@ const Insurance = () => {
           Initiate and Track Claims, Go Cashless with network hospitals and
           intimate Hospitalization
         </p>
-        <div className="flex justify-center">
-          <div className="flex gap-6 flex-wrap mb-14">
+        <div className="">
+          <div className="grid lg:grid-cols-5 grid-cols-2  gap-6 mb-14">
             <div className=" col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
               <div className="flex justify-between mb-4">
                 <p className="text-lg text-[#262c67] font-bold ">E-Card</p>
@@ -117,12 +117,12 @@ const Insurance = () => {
 
         <div className="my-10 pt-4">
           <img
-            className="mx-auto cursor-pointer rounded-xl border shadow-[0px_0px_15px_rgba(24,24,24,0.161)]"
+            className="hidden sm:block mx-auto cursor-pointer rounded-xl border shadow-[0px_0px_15px_rgba(24,24,24,0.161)]"
             src={Surgery}
             alt=""
           />
           <img
-            className="hidden mx-auto cursor-pointer rounded-xl border shadow-[0px_0px_15px_rgba(24,24,24,0.161)]"
+            className="sm:hidden mx-auto cursor-pointer rounded-xl border shadow-[0px_0px_15px_rgba(24,24,24,0.161)]"
             src={SurgeryMob}
             alt=""
           />
