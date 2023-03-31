@@ -7,10 +7,10 @@ const Navbar = () => {
     <>
       <nav className="flex justify-between items-center max-w-screen-2xl m-auto p-4">
         <div>
-          <img src={LOGO} alt="logo" className="w-[150px] h-[43px]" />
+          <img src={LOGO} alt="logo" className="w-28 sm:w-36  sm:h-11 h-9" />
         </div>
         <ul>
-          <li className="text-[#1778F2] text-sm font-bold">
+          <li className="text-[#1778F2] text-xs sm:text-sm font-bold">
             <a href="" className="cursor-pointer ">
               About Us
             </a>

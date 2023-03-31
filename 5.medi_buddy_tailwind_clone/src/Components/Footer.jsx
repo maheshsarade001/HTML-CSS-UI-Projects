@@ -15,8 +15,8 @@ const Footer = () => {
         className="w-full h-full bg-no-repeat bg-cover bg-top pb-12 pt-60"
       >
         <div className="max-w-screen-xl mx-auto">
-          <div className="flex justify-evenly">
-            <div>
+          <div className="grid grid-cols-2 sm:grid-cols-6 gap-8">
+            <div className="sm:col-start-2 justify-self-center">
               <h5 className="text-base text-white mb-[10px]">Health</h5>
               <div className="text-xs text-[#ffffffb0] ">
                 <p className="mb-[10px] py-[2px] cursor-pointer hover:text-white font-bold">
@@ -42,7 +42,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div>
+            <div className="col-span-1 justify-self-center">
               <h5 className="text-base text-white mb-[10px]">
                 Hospitalization
               </h5>
@@ -66,7 +66,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div>
+            <div className="col-span-1 justify-self-center">
               <h5 className="text-base text-white mb-[10px]">ABOUT</h5>
               <div className="text-xs text-[#ffffffb0] ">
                 <p className="mb-[10px] py-[2px] cursor-pointer hover:text-white font-bold">
@@ -89,7 +89,19 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="text-center">
+            <div className="col-span-2 sm:col-span-1 text-center justify-self-center">
+              <div className="flex gap-2 sm:hidden">
+                <div className="mb-4">
+                  <button className="text-sm px-4 py-[6px] font-bold text-white bg-[#ffffff5b] rounded ">
+                    Terms of use
+                  </button>
+                </div>
+                <div>
+                  <button className="text-sm px-3 py-[6px] font-bold text-white bg-[#ffffff5b] rounded ">
+                    Privacy Policy
+                  </button>
+                </div>
+              </div>
               <p className="text-[10px] text-white mb-[10px]">DOWNLOAD APP</p>
               <div className="flex gap-x-2 justify-center mb-5">
                 <div className="border p-2 rounded-2xl cursor-pointer">
@@ -114,7 +126,7 @@ const Footer = () => {
                   <img className="w-3" src={Blog} alt="blog" />
                 </div>
               </div>
-              <div>
+              <div className="hidden sm:block">
                 <div className="mb-4">
                   <button className="text-sm px-4 py-[6px] font-bold text-white bg-[#ffffff5b] rounded ">
                     Terms of use

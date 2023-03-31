@@ -20,8 +20,8 @@ const Insurance = () => {
           intimate Hospitalization
         </p>
         <div className="">
-          <div className="grid lg:grid-cols-5 grid-cols-2  gap-6 mb-14">
-            <div className=" col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
+          <div className="sm:grid sm:grid-cols-3 md:grid-cols-5 gap-6 mb-14">
+            <div className=" col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 mx-auto shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
               <div className="flex justify-between mb-4">
                 <p className="text-lg text-[#262c67] font-bold ">E-Card</p>
                 <img src={rightBlueArrow} alt="" />
@@ -38,7 +38,7 @@ const Insurance = () => {
               </div>
               <img className="absolute bottom-0" src={waveSection} alt="" />
             </div>
-            <div className="col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
+            <div className="sm:block hidden col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
               <div className="flex justify-between mb-4">
                 <p className="text-lg text-[#262c67] font-bold ">Claims</p>
                 <img src={rightBlueArrow} alt="" />
@@ -55,7 +55,7 @@ const Insurance = () => {
               </div>
               <img className="absolute bottom-0" src={waveSection} alt="" />
             </div>
-            <div className="col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
+            <div className="sm:block hidden col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
               <div className="flex justify-between mb-4">
                 <p className="text-lg text-[#262c67] font-bold ">
                   Plan Hospitalization
@@ -74,7 +74,7 @@ const Insurance = () => {
               </div>
               <img className="absolute bottom-0" src={waveSection} alt="" />
             </div>
-            <div className="col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
+            <div className="md:block hidden col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
               <div className="flex justify-between mb-4">
                 <p className="text-lg text-[#262c67] font-bold ">
                   Network Hospitals
@@ -93,7 +93,7 @@ const Insurance = () => {
               </div>
               <img className="absolute bottom-0" src={waveSection} alt="" />
             </div>
-            <div className="col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
+            <div className="md:block hidden col-span-1 border rounded-3xl min-h-[240px] max-w-[215px] p-6 shadow-[0px_0px_25px_rgba(24,24,24,0.161)] relative cursor-pointer">
               <div className="flex justify-between mb-4">
                 <p className="text-lg text-[#262c67] font-bold ">
                   Empanel Hospitals

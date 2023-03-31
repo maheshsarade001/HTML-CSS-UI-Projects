@@ -19,7 +19,7 @@ const MedibuddyGold = () => {
             <p className="text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] via-[#f40009] to-[#f40009] mb-7 ">
               Give the care your family <br /> deserves
             </p>
-            <p className="text-[#262c67] text-lg font-bold mb-7">
+            <p className="text-[#262c67] text-sm sm:text-lg font-bold mb-7">
               Unlimited Consultations with top Docters for members for 6 family
               members in 18+ specialities
             </p>
@@ -32,7 +32,7 @@ const MedibuddyGold = () => {
               <div className="relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={unlimitedConsultations} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
-                <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
+                <p className="text-sm sm:text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
                   Unlimited Free Consultations
                 </p>
                 <p className="text-[#262c67] text-[13px] ">
@@ -48,7 +48,7 @@ const MedibuddyGold = () => {
               <div className="md:top-16 relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={family} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
-                <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
+                <p className="text-sm sm:text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
                   Frre For Full Family
                 </p>
                 <p className="text-[#262c67] text-[13px] ">
@@ -64,7 +64,7 @@ const MedibuddyGold = () => {
               <div className="relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={freeHealth} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
-                <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
+                <p className="text-sm sm:text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
                   Free For All Health Problems
                 </p>
                 <p className="text-[#262c67] text-[13px] ">
@@ -80,7 +80,7 @@ const MedibuddyGold = () => {
               <div className="md:top-16 relative col-span-1 justify-self-center border p-6 max-w-[235px] rounded-3xl shadow-[0px_0px_25px_rgba(24,24,24,0.161)]">
                 <img src={videoConsultation} alt="" />
                 <hr className="border-t-[5px] border-[#f4c838] w-1/4 my-4 rounded-3xl" />
-                <p className="text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
+                <p className="text-sm sm:text-lg mb-[10px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1778f2] to-[#f40009]">
                   Video Consultations
                 </p>
                 <p className="text-[#262c67] text-[13px] ">
